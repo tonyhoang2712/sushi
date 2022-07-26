@@ -1,0 +1,241 @@
+<!doctype html>
+  <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Oregano&display=swap" rel="stylesheet">
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="./carousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./carousel/dist/assets/owl.theme.default.min.css">
+
+    <link rel="stylesheet" type="text/css" href="./mycss/main.css">
+    <link rel="stylesheet" type="text/css" href="./mycss/cart.css">
+
+    <title>Cart</title>
+  </head>
+  <body>
+    <header class="clearfix">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light main-nav">
+          <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="Logo"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Trang Chủ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="mon-an.html">Thực Đơn</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shopping-cart.html">Đặt Bàn</a>
+              </li>
+              <li class="nav-item">
+
+                <a class="nav-link" href="tel:0964883997">
+                  <img src="./images/call.png" class="icon-nav" alt="call">
+                  <span>0964 883 997</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link position-relative" href="#">
+                    <img src="./images/cart.png" class="icon-nav" alt="cart">
+                    <span class="badge badge-light">15</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
+            <li class="breadcrumb-item"><a href="#">Món ăn</a></li>
+            <li class="breadcrumb-item"><a href="#">Giỏ hàng</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Thanh toán</li>
+          </ol>
+        </nav>
+        <br/>
+        <br/>
+        <br/>
+        <div class="box-content">
+          <div class="box-cart-info">
+            <div class="row">
+              <div class="col-md-6 col-sm-12">
+                <div class="form-group">
+                  <label for="address">Địa chỉ nhận hàng</label>
+                  <input type="text" class="form-control" id="address" placeholder="Nhập địa chỉ nhận hàng">
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <div class="form-group">
+                  <label for="phone-number">Số điện thoại</label>
+                  <input type="text" class="form-control" id="phone-number" placeholder="Nhập số điện thoại">
+                </div>
+              </div>
+            </div>
+          </div>
+          <br/>
+          <div class="table-responsive-sm">
+            <table class="table bg-light tbl-cart" aria-describedby="table-cart">
+              <thead>
+                <tr>
+                  <th scope="col">
+                    <label class="name-menu">Tên món ăn</label>
+                  </th>
+                  <th scope="col">Đơn giá</th>
+                  <th scope="col" class="text-center">Số lượng</th>
+                  <th scope="col" class="text-center">Số tiền</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">
+                    <img src="./images/ic-sashimi.png" alt="">
+                    <span>Unagi</span>
+                  </th>
+                  <td class="price">
+                    <span class="money">12.000đ</span>
+                  </td>
+                  <td class="text-center">
+                    <span>1</span>
+                  </td>
+                  <td class="amount text-center">12.000đ</td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <img src="./images/ic-sashimi.png" alt="">
+                    <span>Unagi</span>
+                  </th>
+                  <td class="price">
+                    <span class="money">12.000đ</span>
+                  </td>
+                  <td class="text-center">
+                    <span>1</span>
+                  </td>
+                  <td class="amount text-center">12.000đ</td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <img src="./images/ic-sashimi.png" alt="">
+                    <span>Unagi</span>
+                  </th>
+                  <td class="price">
+                    <span class="money">12.000đ</span>
+                  </td>
+                  <td class="text-center">
+                    <span>1</span>
+                  </td>
+                  <td class="amount text-center">12.000đ</td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <img src="./images/ic-sashimi.png" alt="">
+                    <span>Unagi</span>
+                  </th>
+                  <td class="price">
+                    <span class="money">12.000đ</span>
+                  </td>
+                  <td class="text-center">
+                    <span>1</span>
+                  </td>
+                  <td class="amount text-center">12.000đ</td>
+                </tr>
+              </tbody>
+            </table>
+            <br/>
+            <div class="tbl-cart-footer">
+              <div class="box-tbl-cart-footer">
+                <div class="title">
+                  <p>
+                    <label>Phương thức thanh toán:</label>
+                    <span style="color: #B63241">Thanh toán khi nhận hàng</span>
+                  </p>
+                  <p style="color: #888">Tổng tiền hàng:</p>
+                  <p style="color: #888">Phí vận chuyển:</p>
+                  <p style="color: #888">Tổng thanh toán:</p>
+                </div>
+                <div class="budget">
+                  <p>250.000đ</p>
+                  <p>10.000đ</p>
+                  <p>260.000đ</p>
+                </div>
+              </div>
+              <div class="text-right">
+                <button class="buy-now">
+                  <span>Mua hàng</span>
+                  <svg width="19" height="12" viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.5 5.25C1.08579 5.25 0.75 5.58579 0.75 6C0.75 6.41422 1.08579 6.75 1.5 6.75L1.5 5.25ZM17.5 6.75C17.9142 6.75 18.25 6.41421 18.25 6C18.25 5.58579 17.9142 5.25 17.5 5.25V6.75ZM14.028 0.467309C13.7338 0.175726 13.2589 0.177844 12.9673 0.472041C12.6757 0.766238 12.6778 1.24111 12.972 1.53269L14.028 0.467309ZM15.263 2.74731L14.735 3.28L15.263 2.74731ZM15.263 9.25269L15.7909 9.78538L15.263 9.25269ZM12.972 10.4673C12.6778 10.7589 12.6757 11.2338 12.9673 11.528C13.2589 11.8222 13.7338 11.8243 14.028 11.5327L12.972 10.4673ZM17.4801 5.68667L18.2241 5.59184V5.59184L17.4801 5.68667ZM17.4801 6.31333L18.2241 6.40816V6.40816L17.4801 6.31333ZM1.5 6.75L17.5 6.75V5.25L1.5 5.25L1.5 6.75ZM12.972 1.53269L14.735 3.28L15.7909 2.21462L14.028 0.467309L12.972 1.53269ZM14.735 8.72L12.972 10.4673L14.028 11.5327L15.7909 9.78538L14.735 8.72ZM14.735 3.28C15.4505 3.98914 15.9413 4.47718 16.2734 4.8907C16.596 5.2924 16.7067 5.55042 16.7361 5.7815L18.2241 5.59184C18.1453 4.97372 17.8504 4.45878 17.4429 3.95146C17.045 3.45597 16.4814 2.89892 15.7909 2.21462L14.735 3.28ZM15.7909 9.78538C16.4814 9.10108 17.045 8.54403 17.4429 8.04854C17.8504 7.54121 18.1453 7.02628 18.2241 6.40816L16.7361 6.2185C16.7067 6.44958 16.596 6.7076 16.2734 7.10929C15.9413 7.52282 15.4505 8.01086 14.735 8.72L15.7909 9.78538ZM16.7361 5.7815C16.7546 5.92659 16.7546 6.07341 16.7361 6.2185L18.2241 6.40816C18.2586 6.13714 18.2586 5.86286 18.2241 5.59184L16.7361 5.7815Z" fill="#B63241"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br/>
+        <br/>
+      </div>
+    </main>
+  <footer>
+    <div class="may-6"><img src="./images/may-6.png"></div>
+    <div class="container">
+      <div class="box-footer text-white">
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <div class="footer-logo">
+              <img src="./images/footer-logo.png">
+              <span class="footer-branch">Jiro Sushi</span>
+            </div>
+            <h4 class="footer_title">THÔNG TIN LIÊN HỆ</h4>
+            <ul class="list-unstyled footer-info">
+              <li><img src="./images/located.png" alt=""><span class="address">Địa chỉ: S2.05 Vinhome Ocean Park</span></li>
+              <li><img src="./images/Calling.png" alt=""><a href="tel:0964 883 997" class="text-white">Hotline: 0964 883 997</a></li>
+              <li>
+                <span class="zalo"><img src="./images/zalo-white-1.png" alt=""><a href="tel:0964 883 997" class="text-white">0964 883 997</a></span>
+                <span class="facebook"><img src="./images/facebook-1.png" alt=""><a href="tel:0964 883 997" class="text-white">fb/jirosushi</a></span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 col-sm-12">
+            <ul class="footer-menu">
+              <li><a href="#" class="text-white">Trang chủ</a></li>
+              <li><a href="#" class="text-white">Thực đơn</a></li>
+              <li><a href="#" class="text-white">Đặt bàn</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 col-sm-12">
+            <div class="google-map w-100">
+              <iframe width="100%" height="auto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7450.02184904607!2d105.93100426977539!3d20.992199200000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135af3c6dd800c5%3A0xc097847dcc88fb3b!2sBuilding%20S2.05!5e0!3m2!1svi!2s!4v1658063403269!5m2!1svi!2s" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <script src="./carousel/dist/owl.carousel.min.js"></script>
+
+  <script src="./myjs/main.js"></script>
+</body>
+</html>
